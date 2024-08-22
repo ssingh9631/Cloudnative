@@ -1,4 +1,4 @@
-def welcome(name="Sachin Amit Abhishek"):
+def welcome(name):
     # Returns the welcome message with the specified format
     message = f"Hello {name} and welcome to the World of Games (WoG).\nHere you can find many cool games to play."
     return message
