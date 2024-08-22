@@ -1,10 +1,3 @@
-# This file’s sole purpose is to serve the user’s score currently in the scores.txt file over HTTP with 
-# HTML. This will be done by using python’s flask library. 
-# Methods
-# 1. score_server - This function will serve the score. It will read the score from the scores 
-# file and will return an HTML that will be as follows:
-# Importing flask module in the project is mandatory
-# An object of Flask class is our WSGI application.
 from Score import read_score
 from flask import Flask
 
