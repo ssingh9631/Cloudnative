@@ -1,3 +1,3 @@
 docker_commads
-docker build -t uridror/maingame:0.1 .
-docker run -d --name game -p 5000:5000 uridror/maingame:0.1
+docker build -t ssingh/maingame:0.1 .
+docker run -d --name game -p 5000:5000 ssingh/maingame:0.1
