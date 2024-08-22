@@ -4,11 +4,16 @@
 # before a new game starts).
 
 import os
+import platform
 
-SCORES_FILE_NAME = './Scores.txt'
+# Constants
+SCORES_FILE_NAME = "Scores.txt"
 BAD_RETURN_CODE = -1
 
-
 def screen_cleaner():
-    #os.system('cls')
-    os.system('clear')
+    """Clear the screen."""
+    os_name = platform.system()
+    if os_name == 'Windows':
+        os.system('cls')
+    else:
+        os.system('clear')
